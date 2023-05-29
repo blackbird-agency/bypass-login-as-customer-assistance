@@ -1,0 +1,27 @@
+{
+    "name": "blackbird/bypass-login-as-customer-assistance",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Blackbird Agency",
+            "email": "contact@bird.eu",
+            "homepage": "https://black.bird.eu"
+        }
+    ],
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "php": "~8.0.0||~8.1.0",
+        "magento/framework": "*",
+        "magento/module-login-as-customer-assistance": "100.4.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+          "Blackbird\\BypassLoginAsCustomerAssistance\\": ""
+        }
+    }
+}

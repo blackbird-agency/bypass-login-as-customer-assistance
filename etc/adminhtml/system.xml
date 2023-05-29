@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="login_as_customer" showInWebsite="1">
+            <group id="general" showInWebsite="1">
+                <field id="bypass_acceptance_check" translate="label" type="select" sortOrder="70" showInDefault="1" showInWebsite="1" canRestore="1">
+                    <label>Bypass acceptance check</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>login_as_customer/general/bypass_acceptance_check</config_path>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

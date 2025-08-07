@@ -1,6 +1,6 @@
 {
     "name": "blackbird/bypass-login-as-customer-assistance",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Blackbird Agency",
@@ -8,10 +8,10 @@
             "homepage": "https://black.bird.eu"
         }
     ],
-    "description": "N/A",
+    "description": "Bypass the allow login assistance check.",
     "type": "magento2-module",
     "require": {
-        "php": "~8.0.0||~8.1.0||~8.2.0||~8.3.0",
+        "php": "~8.0.0||~8.1.0||~8.2.0||~8.3.0||~8.4.0",
         "magento/framework": "*",
         "magento/module-login-as-customer-assistance": "100.4.*"
     },
